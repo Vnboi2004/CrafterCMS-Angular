@@ -3,4 +3,10 @@
   <site-id>angular-sample</site-id>
   <display-name>Angular Sample</display-name>
   <version>4.0.0</version>
+  <cors>
+    <allowed-origins>
+      <origin>http://localhost:4200</origin>
+    </allowed-origins>
+    <allowed-methods>GET,POST,PUT,DELETE</allowed-methods>
+  </cors>
 </site-config>
